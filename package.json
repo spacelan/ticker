@@ -1,0 +1,32 @@
+{
+  "name": "ticker",
+  "version": "1.0.0",
+  "description": "数字货币报价微信机器人",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spacelan/ticker.git"
+  },
+  "keywords": [
+    "微信",
+    "机器人",
+    "数字货币",
+    "比特",
+    "BTC"
+  ],
+  "author": "spacelan1993@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spacelan/ticker/issues"
+  },
+  "homepage": "https://github.com/spacelan/ticker#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "qrcode-terminal": "^0.11.0",
+    "wechat4u": "^0.7.5"
+  }
+}
